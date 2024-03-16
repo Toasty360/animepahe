@@ -1,0 +1,36 @@
+name: animepahe
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.1
+  http: ^1.2.0
+  html: ^0.15.4
+  media_kit:
+  media_kit_video:
+  media_kit_libs_video:
+  hive:
+  hive_flutter:
+  path_provider:
+  toast: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator:
+  build_runner:
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
